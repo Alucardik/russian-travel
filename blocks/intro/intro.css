@@ -1,4 +1,6 @@
 .intro {
+    position: relative;
+    right: calc((984px - 690px) / 2);
     width: 690px;
     height: 429px;
 
