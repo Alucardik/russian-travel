@@ -1,0 +1,16 @@
+.places__paragraph {
+  grid-area: paragraph;
+
+  margin: 0 0 26px;
+  max-width: 484px;
+
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.places__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+

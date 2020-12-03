@@ -1,0 +1,20 @@
+.places__place {
+  width: 984px;
+  height: 660px;
+
+  margin-bottom: 80px;
+
+  display: grid;
+  grid-template-rows: 152px 460px;
+  grid-template-columns: 460px 484px;
+  grid-template-areas:
+                  "title website"
+                  "image paragraph";
+
+  row-gap: 48px;
+  column-gap: 40px;
+}
+
+.places__place:last-of-type {
+  margin-bottom: 0;
+}

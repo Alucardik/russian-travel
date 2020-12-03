@@ -1,0 +1,9 @@
+.website__link {
+  margin-top: 12px;
+
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
