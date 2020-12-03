@@ -10,9 +10,3 @@
 
   background-color: #2A2C2F;
 }
-
-@media screen and (max-width: 1024px){
-  .page {
-    /*align-items: baseline;*/
-  }
-}

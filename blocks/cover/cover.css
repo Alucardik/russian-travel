@@ -28,3 +28,12 @@
     margin-top: 90px;
   }
 }
+
+@media screen and (max-width: 675px) {
+  .cover {
+    width: 100%;
+    height: 200px;
+
+    margin-top: 66px;
+  }
+}

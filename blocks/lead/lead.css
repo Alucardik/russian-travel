@@ -21,8 +21,14 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 925px) {
   .lead {
     height: 862px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .lead {
+    height: 406px;
   }
 }

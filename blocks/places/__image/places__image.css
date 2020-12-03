@@ -16,4 +16,8 @@
   }
 }
 
-/* 675 */
+@media screen and (max-width: 675px) {
+  .places__image {
+    height: 320px;
+  }
+}
