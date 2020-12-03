@@ -1,5 +1,14 @@
 .content {
+    width: 92.5%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    width: 90.625%;
+    align-items: baseline;
+  }
 }

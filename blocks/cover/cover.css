@@ -1,14 +1,21 @@
 .cover {
   margin-top: 92px;
 
-  width: 1184px;
+  width: 92.5%;
+  max-width: 1184px;
   height: 740px;
 
-  color: #FFFFFF;
   background-image: url(../../media/images/cover__background.jpg);
+  background-size: 100% 100%;
 }
 
 .cover a {
   text-decoration: none;
-  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    height: 640px;
+  }
 }

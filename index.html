@@ -49,18 +49,18 @@
     </section>
 
     <section class="photo-grid">
-      <img src="media/images/grid__item1.jpg" alt="" class="photo-grid__item">
-      <img src="media/images/grid__item2.jpg" alt="" class="photo-grid__item">
-      <img src="media/images/grid__item3.jpg" alt="" class="photo-grid__item">
-      <img src="media/images/grid__item4.jpg" alt="" class="photo-grid__item">
-      <img src="media/images/grid__item5.jpg" alt="" class="photo-grid__item">
-      <img src="media/images/grid__item6.jpg" alt="" class="photo-grid__item">
-      <img src="media/images/grid__item7.jpg" alt="" class="photo-grid__item">
-      <img src="media/images/grid__item8.jpg" alt="" class="photo-grid__item">
-      <img src="media/images/grid__item9.jpg" alt="" class="photo-grid__item">
-      <img src="media/images/grid__item10.jpg" alt="" class="photo-grid__item">
-      <img src="media/images/grid__item11.jpg" alt="" class="photo-grid__item">
-      <img src="media/images/grid__item12.jpg" alt="" class="photo-grid__item">
+      <img src="media/images/grid__item1.jpg" alt="Вид из окна электрички" class="photo-grid__item">
+      <img src="media/images/grid__item2.jpg" alt="Облака над горами" class="photo-grid__item">
+      <img src="media/images/grid__item3.jpg" alt="Одинокий волк на поле" class="photo-grid__item">
+      <img src="media/images/grid__item4.jpg" alt="Горный лес" class="photo-grid__item">
+      <img src="media/images/grid__item5.jpg" alt="Машина на замерзшем озере" class="photo-grid__item">
+      <img src="media/images/grid__item6.jpg" alt="Вид на южный пляж" class="photo-grid__item">
+      <img src="media/images/grid__item7.jpg" alt="Горный хребет" class="photo-grid__item">
+      <img src="media/images/grid__item8.jpg" alt="Набережная северного моря" class="photo-grid__item">
+      <img src="media/images/grid__item9.jpg" alt="Холмы" class="photo-grid__item">
+      <img src="media/images/grid__item10.jpg" alt="Безоблачная погода и гора" class="photo-grid__item">
+      <img src="media/images/grid__item11.jpg" alt="Скалы на берегу моря" class="photo-grid__item">
+      <img src="media/images/grid__item12.jpg" alt="Горная долина в облаках" class="photo-grid__item">
     </section>
 
     <!--  TODO think about line endings in paragraphs and compare them to a model  -->
@@ -219,20 +219,21 @@
         </article>
       </div>
     </section>
-
-    <section class="cover">
-      <div class="cover__overlay">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
-        </a>
-        <span class="cover__subtitle">
-          По мотивам учебной темы о Транссибе
-          — путешествие от столицы до Байкала
-          на электричках.
-        </span>
-      </div>
-    </section>
   </main>
+
+  <!-- если оставить эту секцию в main то при уменьшении экрана не удастся выровнять все элементы по baseline -->
+  <section class="cover">
+    <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+      <div class="cover__overlay">
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <span class="cover__subtitle">
+            По мотивам учебной темы о Транссибе
+            — путешествие от столицы до Байкала
+            на электричках.
+          </span>
+      </div>
+    </a>
+  </section>
 
   <footer class="footer">
     <nav class="footer__links">

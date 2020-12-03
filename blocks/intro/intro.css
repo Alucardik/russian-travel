@@ -1,11 +1,17 @@
 .intro {
-    position: relative;
-    right: calc((984px - 690px) / 2);
-    width: 690px;
-    height: 429px;
+  position: relative;
+  width: 690px;
+  right: calc((76.875% - 690px) / 2);
+  height: 429px;
 
-    margin-top: 92px;
+  margin-top: 92px;
 
-    color: #FFFFFF;
-    text-align: left;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    position: static;
+  }
 }

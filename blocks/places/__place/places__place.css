@@ -1,11 +1,11 @@
 .places__place {
   width: 984px;
-  height: 660px;
+  /*max-width: 984px;*/
 
   margin-bottom: 80px;
 
   display: grid;
-  grid-template-rows: 152px 460px;
+  grid-template-rows: min-content 460px;
   grid-template-columns: 460px 484px;
   grid-template-areas:
                   "title website"
@@ -17,4 +17,12 @@
 
 .places__place:last-of-type {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__place {
+    width: 928px;
+    grid-template-rows: min-content 440px;
+    grid-template-columns: 440px 456px;
+  }
 }
