@@ -10,4 +10,9 @@
   color: #FFFFFF;
 
   background-color: rgba(42, 44, 47, .3);
+  transition: background-color .3s ease;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
 }

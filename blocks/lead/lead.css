@@ -1,16 +1,16 @@
 .lead {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    width: calc((984 / 1184) * 100%);
-    /*width: 984px;*/
-    height: 1005px;
+  width: calc((984 / 1184) * 100%);
+  /*width: 984px;*/
+  height: 1005px;
 
-    margin-top: 56px;
+  margin-top: 56px;
 
-    text-align: center;
-    color: #FFFFFF;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
