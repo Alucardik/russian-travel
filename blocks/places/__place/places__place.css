@@ -21,8 +21,9 @@
 
 @media screen and (max-width: 1024px) {
   .places__place {
-    width: 928px;
+    width: 100%;
     grid-template-rows: min-content 440px;
-    grid-template-columns: 440px 456px;
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
   }
 }
+/* 925 */
