@@ -4,3 +4,10 @@
 
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 925px) {
+  .places {
+    margin-top: 88px;
+    width: calc((720 / 768) * 100%);
+  }
+}

@@ -18,3 +18,14 @@
     gap: 14px;
   }
 }
+
+@media screen and (max-width: 925px) {
+  .photo-grid {
+    margin-top: 88px;
+    width: calc((720 / 768) * 100%);
+    height: 1664px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}

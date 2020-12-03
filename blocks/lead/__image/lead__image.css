@@ -13,3 +13,11 @@
     height: 580px;
   }
 }
+
+@media screen and (max-width: 925px) {
+  .lead__image {
+    margin-top: 56px;
+
+    height: 480px;
+  }
+}
