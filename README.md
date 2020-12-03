@@ -16,4 +16,4 @@
 
 ## **Посмотреть на сайт в действии**
 
-Текущая версия сайта опубликована размещена на сервисе **GitHub Pages** и доступна по [ссылке](https://alucardik.github.io/russian-travel/)
+Текущая версия сайта опубликована размещена на сервисе **GitHub Pages** и доступна по [ссылке](https://alucardik.github.io/russian-travel/).
