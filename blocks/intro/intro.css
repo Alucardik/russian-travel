@@ -1,7 +1,7 @@
 .intro {
   position: relative;
   width: 690px;
-  right: calc((76.875% - 690px) / 2);
+  right: calc((calc((984 / 1184) * 100%) - 690px) / 2);
   /*height: 429px;*/
 
   margin-top: 92px;
