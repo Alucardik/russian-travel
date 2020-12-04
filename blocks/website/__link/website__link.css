@@ -1,5 +1,6 @@
 .website__link {
   margin-top: 12px;
+  width: fit-content;
 
   font-weight: normal;
   font-size: 18px;
