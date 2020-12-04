@@ -1,12 +1,12 @@
 .places__place {
-  width: 984px;
+  width: 100%;
   /*max-width: 984px;*/
 
   margin-bottom: 80px;
 
   display: grid;
-  grid-template-rows: min-content 460px;
-  grid-template-columns: 460px 484px;
+  grid-template-rows: min-content minmax(460px, max-content);
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   grid-template-areas:
                   "title website"
                   "image paragraph";
@@ -21,8 +21,7 @@
 
 @media screen and (max-width: 1024px) {
   .places__place {
-    width: 100%;
-    grid-template-rows: min-content 440px;
+    grid-template-rows: min-content minmax(440px, max-content);
     grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
     column-gap: 32px;
   }
