@@ -18,6 +18,12 @@
 
 @media screen and (max-width: 675px) {
   .places__image {
+    height: 390px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .places__image {
     height: 320px;
   }
 }
