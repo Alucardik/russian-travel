@@ -10,14 +10,14 @@
 @media screen and (max-width: 1024px) {
   .places {
     position: static;
-    align-self: flex-start;
-    margin-left: 48px;
+    margin-left: calc(48 / 1024 * 100%);
     width: calc((928 / 1024) * 100%);
   }
 }
 
 @media screen and (max-width: 925px) {
   .places {
+    margin-left: 0;
     margin-top: 88px;
     display: block;
     width: calc((720 / 768) * 100%);
