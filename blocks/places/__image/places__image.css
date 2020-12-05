@@ -5,28 +5,3 @@
   object-fit: contain;
   object-position: top left;
 }
-
-@media screen and (max-width: 1024px) {
-  .places__image {
-    height: 440px;
-  }
-}
-
-@media screen and (max-width: 925px) {
-  .places__image {
-    height: 340px;
-  }
-}
-
-@media screen and (max-width: 675px) {
-  .places__image {
-    object-fit: fill;
-    height: 390px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .places__image {
-    height: 320px;
-  }
-}
