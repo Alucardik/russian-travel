@@ -7,6 +7,15 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 1024px) {
+  .places {
+    position: static;
+    align-self: flex-start;
+    margin-left: 48px;
+    width: calc((928 / 1024) * 100%);
+  }
+}
+
 @media screen and (max-width: 925px) {
   .places {
     margin-top: 88px;

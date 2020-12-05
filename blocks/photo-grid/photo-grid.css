@@ -36,9 +36,3 @@
     gap: 12px;
   }
 }
-
-@media screen and (max-width: 480px) {
-  .photo-grid {
-    /*height: 2724px;*/
-  }
-}
