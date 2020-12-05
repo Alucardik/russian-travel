@@ -1,34 +1,6 @@
 .lead__image {
   width: 100%;
-  height: 615px;
-
   margin-top: 64px;
 
-}
-
-@media screen and (max-width: 1024px) {
-  .lead__image {
-    margin-top: 56px;
-
-    height: 580px;
-  }
-}
-
-@media screen and (max-width: 925px) {
-  .lead__image {
-    height: 480px;
-  }
-}
-
-@media screen and (max-width: 675px) {
-  .lead__image {
-    height: 380px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .lead__image {
-    margin-top: 40px;
-    height: 200px;
-  }
+  object-fit: contain;
 }
