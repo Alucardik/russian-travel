@@ -8,7 +8,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 675px){
+@media screen and (max-width: 695px){
   .footer__links {
     width: 100%;
     min-height: 248px;
