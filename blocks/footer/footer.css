@@ -1,6 +1,5 @@
 .footer {
   width: 92.5%;
-  height: 18px;
 
   margin-top: 92px;
   margin-bottom: 24px;
@@ -15,7 +14,7 @@
   .footer {
     width: 90%;
 
-    height: 310px;
+    min-height: 310px;
 
     margin-top: 64px;
 

@@ -2,7 +2,6 @@
   margin-top: 92px;
   width: calc((1184 / 1280) * 100%);
   max-width: 1184px;
-  height: 671px;
 
   display: grid;
   grid-template-rows: repeat(3, 1fr);
@@ -12,7 +11,6 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    height: 942px;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(3, 1fr);
     gap: 14px;
@@ -23,7 +21,6 @@
   .photo-grid {
     margin-top: 88px;
     width: calc((720 / 768) * 100%);
-    height: 1664px;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
@@ -34,15 +31,8 @@
   .photo-grid {
     margin-top: 64px;
     width: calc((288 / 320) * 100%);
-    height: 4044px;
     grid-template-rows: repeat(12, 1fr);
     grid-template-columns: 1fr;
     gap: 12px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .photo-grid {
-    height: 2724px;
   }
 }
